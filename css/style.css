@@ -410,6 +410,12 @@ a:focus {
     }
 }
 
+.gifcenter { 
+    /* background-color: #D0B562;  */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+} 
 
 /*******************************/
 /******* Section Header ********/
