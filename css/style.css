@@ -1577,6 +1577,13 @@ a:focus {
     color: #414141;
 }
 
+.gifcenter { 
+    /* background-color: #D0B562;  */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+} 
+
 @media (max-width: 575.98px) {
     .footer .footer-info h2 {
         margin-bottom: 20px;
