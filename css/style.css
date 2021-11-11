@@ -269,6 +269,11 @@ a:focus {
     max-height: 80%;
 }
 
+.imgframe{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+
 .hero .hero-content {
     position: relative;
     padding-left: 75px;
