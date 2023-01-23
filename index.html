@@ -20,6 +20,25 @@
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
         <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
+        <!-- Favicons -->
+    <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="assets/icons/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="assets/icons/favicon-32x32.png"
+  />
+
+  <!-- Animate CSS CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
@@ -39,6 +58,7 @@
                     <div class="navbar-nav ml-auto">
                         <a href="#home" class="nav-item nav-link active">Home</a>
                         <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#myskills" class="nav-item nav-link">Tech Stack</a>
                         <a href="#education" class="nav-item nav-link">Education</a>
                         <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
                         <a href="#contact" class="nav-item nav-link">Contact</a>
@@ -98,41 +118,130 @@
                                     She considers herself a dedicated student, ready for any challenge that comes her way.
                                 </p>
                             </div>
-                            <div class="skills">
-                                <div class="skill-name">
-                                    <p>C++</p><p>80%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>HTML/CSS</p><p>90%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Java</p><p>65%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>                                
-                                <div class="skill-name">
-                                    <p>JavaScript</p><p>85%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- About End --> 
-        
 
-         <!-- Education Start -->
+        <!-- Tech Stack -->
+        <div class="skills" id="myskills">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My skills</p>
+                    <h2>Tech Stack</h2>
+                </header>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-angularjs.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="first-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-java.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-python.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-visual-studio.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+      </div>
+      <div class="first-set animate__animated animate__pulse">
+        <img
+          src="assets/icons/icons8-microsoft-sql-server.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="assets/icons/icons8-mysql-logo.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="assets/icons/icons8-firebase.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+      </div>
+      <div class="first-set animate__animated animate__pulse">
+        <img
+          src="assets/icons/icons8-git.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="assets/icons/icons8-github.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="assets/icons/icons8-visual-studio-code-2019.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+      </div>
+  </div>
+            </div>
+        </div>
+        <!-- Tech Stack End -->
+
+        <!-- Education Start -->
         <div class="experience" id="education">
             <div class="container">
                 <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
@@ -323,6 +432,16 @@
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
         <script src="lib/isotope/isotope.pkgd.min.js"></script>
         <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Ion icons scripts -->
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
         
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
