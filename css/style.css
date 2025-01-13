@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #266E73;
+    color: #8f93ea;
     outline: none;
     text-decoration: none;
 }
@@ -44,20 +44,20 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: #ffffff;
-    background: #266E73;
+    background: #8f93ea;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #266E73;
+    box-shadow: inset 0 0 0 50px #8f93ea;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
 }
 
 .btn:hover {
-    color: #266E73;
+    color: #8f93ea;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #266E73;
-    border-color: #266E73;
+    box-shadow: inset 0 0 0 0 #8f93ea;
+    border-color: #8f93ea;
 }
 
 #loader {
@@ -91,7 +91,7 @@ a:focus {
     width: 45px;
     height: 45px;
     border: 5px solid #dddddd;
-    border-top: 5px solid #266E73;
+    border-top: 5px solid #8f93ea;
     border-radius: 50%;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
@@ -137,6 +137,7 @@ a:focus {
     position: relative;
     transition: .5s;
     z-index: 999;
+    color: #c58be2 !important;
 }
 
 .navbar.nav-sticky {
@@ -148,12 +149,13 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 0;
-    font-size: 45px;
+    font-size: 25px;
     line-height: 0px;
     font-weight: 700;
+    margin-top: 12px;
     letter-spacing: 2px;
     transition: .5s;
-    
+    color: #8f93ea !important;
 }
 
 .navbar .navbar-brand img {
@@ -188,7 +190,7 @@ a:focus {
     }
     
     .navbar.nav-sticky .navbar-brand {
-        color: #266E73;
+        color: #8f93ea;
     }
 
     .navbar-light .navbar-nav .nav-link,
@@ -211,7 +213,7 @@ a:focus {
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #266E73;
+        color: #8f93ea;
     }
 }
 
@@ -222,7 +224,7 @@ a:focus {
     }
     
     .navbar .navbar-brand {
-        color: #266E73;
+        color: #8f93ea;
     }
     
     .navbar .navbar-nav {
@@ -246,9 +248,8 @@ a:focus {
     position: relative;
     width: 100%;
     margin-bottom: 45px;
-    padding: 120px 0 0 0;
+    padding:100px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(38, 110, 115, 1), rgba(38,110,115,1)), url(../img/def_beige.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -319,7 +320,7 @@ a:focus {
 
 .hero .hero-btn .btn {
     margin-top: 35px;
-    color: #266E73;
+    color: #8f93ea;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -444,7 +445,7 @@ a:focus {
     top: 11px;
     right: 0;
     left: -30px;
-    background: #266E73;
+    background: #8f93ea;
     z-index: -1;
 }
 
@@ -455,7 +456,7 @@ a:focus {
     height: 3px;
     top: 11px;
     left: 3px;
-    background: #266E73;
+    background: #8f93ea;
     z-index: 1;
 }
 
@@ -537,7 +538,7 @@ a:focus {
 
 .about .progress .progress-bar {
     width: 0px;
-    background: #266E73;
+    background: #8f93ea;
     border-radius: 10px;
     transition: 2s;
 }
@@ -570,7 +571,7 @@ a:focus {
     content: '';
     position: absolute;
     width: 2px;
-    background: #266E73;
+    background: #8f93ea;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -602,7 +603,7 @@ a:focus {
     top: 48px;
     right: -8px;
     background: #ffffff;
-    border: 2px solid #266E73;
+    border: 2px solid #8f93ea;
     border-radius: 16px;
     z-index: 1;
 }
@@ -634,7 +635,7 @@ a:focus {
     top: 44px;
     font-size: 16px;
     font-weight: 600;
-    color: #266E73;
+    color: #8f93ea;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
@@ -748,7 +749,7 @@ a:focus {
 }
 
 .service .service-item:hover {
-    box-shadow: inset 800px 0 0 0 #266E73;
+    box-shadow: inset 800px 0 0 0 #8f93ea;
 }
 
 .service .service-icon {
@@ -758,14 +759,14 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #266E73;
+    border: 1px solid #8f93ea;
     background: #ffffff;
 }
 
 .service .service-icon i {
     position: relative;
     font-size: 60px;
-    color: #266E73;
+    color: #8f93ea;
     transition: .3s;
 }
 
@@ -833,10 +834,10 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
-    background: #266E73;
+    background: #8f93ea;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #266E73;
+    box-shadow: inset 0 0 0 50px #8f93ea;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -844,10 +845,10 @@ a:focus {
 
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
-    color: #266E73;
+    color: #8f93ea;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #266E73;
-    border-color: #266E73;
+    box-shadow: inset 0 0 0 0 #8f93ea;
+    border-color: #8f93ea;
 }
 
 .portfolio .portfolio-item {
@@ -909,10 +910,10 @@ a:focus {
 }
 
 .portfolio .portfolio-item:hover a.btn {
-    color: #266E73;
+    color: #8f93ea;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #266E73;
-    border-color: #266E73;
+    box-shadow: inset 0 0 0 0 #8f93ea;
+    border-color: #8f93ea;
 }
 
 
@@ -924,7 +925,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: #266E73;
+    background: #8f93ea;
 }
 
 .banner .container {
@@ -961,7 +962,7 @@ a:focus {
 
 .banner .banner-text .btn {
     margin-top: 15px;
-    color: #266E73;
+    color: #8f93ea;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -1015,7 +1016,7 @@ a:focus {
 }
 
 .price .price-item.featured-item .price-header {
-    color: #266E73;
+    color: #8f93ea;
 }
 
 .price .price-title h2 {
@@ -1045,7 +1046,7 @@ a:focus {
 }
 
 .price .price-item.featured-item h2 {
-    color: #266E73;
+    color: #8f93ea;
 }
 
 .price .price-body {
@@ -1081,15 +1082,15 @@ a:focus {
 
 .price .price-item.featured-item .price-action .btn {
     color: #ffffff;
-    background: #266E73;
-    box-shadow: inset 0 0 0 50px #266E73;
+    background: #8f93ea;
+    box-shadow: inset 0 0 0 50px #8f93ea;
 }
 
 .price .price-item.featured-item .price-action .btn:hover {
-    color: #266E73;
+    color: #8f93ea;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #266E73;
-    border-color: #266E73;
+    box-shadow: inset 0 0 0 0 #8f93ea;
+    border-color: #8f93ea;
 }
 
 
@@ -1132,7 +1133,7 @@ a:focus {
 }
 
 .team .team-text h2 {
-    color: #266E73;
+    color: #8f93ea;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -1171,7 +1172,7 @@ a:focus {
 }
 
 .team .team-item:hover {
-    box-shadow: inset 800px 0 0 0 #266E73;
+    box-shadow: inset 800px 0 0 0 #8f93ea;
 }
 
 .team .team-item:hover .team-img img {
@@ -1221,7 +1222,7 @@ a:focus {
     position: relative;
     margin: 45px 0;
     padding: 90px 0;
-    background: #266E73;
+    background: #8f93ea;
 }
 
 .testimonial .container {
@@ -1273,7 +1274,7 @@ a:focus {
 }
 
 .testimonial .testimonial-text h3 {
-    color: #266E73;
+    color: #8f93ea;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -1311,7 +1312,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #266E73;
+    background: #8f93ea;
 }
 
 .contact .container-fluid {
@@ -1322,7 +1323,7 @@ a:focus {
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #266E73;
+    background: #8f93ea;
 }
 
 .contact .contact-form input {
@@ -1356,7 +1357,7 @@ a:focus {
 
 .contact .contact-form .btn {
     margin-top: 35px;
-    color: #266E73;
+    color: #8f93ea;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -1470,7 +1471,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #266E73;
+    background: #8f93ea;
 }
 
 .footer .container-fluid {
@@ -1577,7 +1578,7 @@ a:focus {
 }
 
 .gifcenter { 
-    /* background-color: #266E73;  */
+    /* background-color: #8f93ea;  */
     display: flex; 
     justify-content: center; 
     align-items: center;
@@ -1637,7 +1638,7 @@ a:focus {
   }
   
   .flip-box-back {
-    background-color: #266E73;
+    background-color: #8f93ea;
     color: white;
     transform: rotateY(180deg);
     padding-top: 20px;
@@ -1668,4 +1669,12 @@ a:focus {
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
     margin: 10px;
+  }
+
+  .bg-spline {
+    position: absolute;
+  }
+
+  .hero {
+    height: 600px;
   }
