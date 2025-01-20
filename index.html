@@ -9,7 +9,7 @@
     <meta content="Personal Portfolio" name="description">
 
     <!-- Favicon -->
-    <link href="img/icon-s.svg" rel="icon">
+    <link href="/assets/icons/favicon.ico" rel="icon">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
@@ -22,15 +22,12 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
-
     <!-- Animate CSS CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="font-awesome.min.css" />
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -41,7 +38,7 @@
                 <a href="#" class="navbar-brand">SL Ngwaluko</a>
             </div>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><ion-icon name="menu"></ion-icon></span>
             </button>
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
@@ -60,34 +57,28 @@
 
 
     <!-- Hero Start -->
-    <div class="hero" id="home">
-        <iframe src='https://my.spline.design/interactiveworkspace-41312e7d8881c445d6b8ac655cedd142/' class="bg-spline"
-            frameborder='0' width='100%' height='500px'></iframe>
-
-        <div class="container-fluid">
+    <div class="hero hero-home-bg" id="home">
+        <div class="container-fluid ">
             <div class="row align-items-center">
                 <div class="col-sm-12 col-md-6 h-100">
-                    <div class="hero-content py-5">
+                    <div class="hero-content py-4">
                         <div>
                             <div class="hero-text">
                                 <p>I'm</p>
                                 <h1>Siphiwe Linda Ngwaluko</h1>
                             </div>
                             <div class="hero-btn">
-                                <a class="btn" href="./siphiwe-ngwaluko-cv.pdf" download="sl-ngwaluko-cv">Download CV</a>
+                                <a class="btn" href="/cv/siphiwe-ngwaluko-cv.pdf" download="sl-ngwaluko-cv">Download
+                                    CV</a>
                                 <a class="btn" href="#contact">Contact Me</a>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
     <!-- Hero End -->
-
-
-
 
     <!-- About Start -->
     <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
@@ -95,7 +86,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-img">
-                        <img src="img/coding_background.jpg" alt="Image">
+                        <img src="img/data-background.jpg" alt="Data Image">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -105,7 +96,7 @@
                         </div>
                         <div class="about-text">
                             <p>
-                                Siphiwe Linda Ngwaluko is fueled by her passion for tech.
+                                Siphiwe Linda Ngwaluko is fueled by her passion for data.
                                 She considers herself a dedicated individual, ready for any challenge that comes her
                                 way.
                             </p>
@@ -121,37 +112,38 @@
     <div class="skills" id="myskills">
         <div class="container">
             <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                <p>My skills</p>
+                <p>Core skills</p>
                 <h2>Tech Stack</h2>
             </header>
 
             <div class="skills-wrapper">
-                <div class="first-set animate__animated animate__pulse">
-                    <img src="assets/icons/figma.svg" alt="" loading="lazy" class="icon icon-card" />
-                    <img src="assets/icons/adobe-xd.svg" alt="" loading="lazy" class="icon icon-card" />
-                    <img src="assets/icons/Canva Vector Icon.svg" alt="" loading="lazy" class="icon icon-card" />
+                <div class="skill-item">
+                    <img src="assets/icons/excel.svg" alt="Excel" loading="lazy" class="icon icon-card" />
+                    <h5 class="text-black">Microsoft Excel</h5>
                 </div>
-                <div class="first-set animate__animated animate__pulse">
-                    <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
-                    <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
-                    <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+                <div class="skill-item">
+                    <img src="assets/icons/power-bi.svg" alt="Power BI" loading="lazy" class="icon icon-card"
+                        style="height: 100px;" />
+                    <h5 class="text-black">Microsoft Power BI</h5>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/icons/microsoft-sql-server.svg" alt="MSSQL" loading="lazy"
+                        class="icon icon-card" />
+                    <h5 class="text-black">Microsoft SQL Server</h5>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/icons/azure.svg" alt="Azure" loading="lazy" class="icon icon-card" />
+                    <h5 class="text-black">Microsoft Azure</h5>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/icons/python.svg" alt="Python" loading="lazy" class="icon icon-card" />
+                    <h5 class="text-black">Python</h5>
                 </div>
 
-                <div class="second-set animate__animated animate__pulse">
-                    <img src="assets/icons/Angular SVG Icons.svg" alt="" loading="lazy" class="icon icon-card" />
-                    <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
-                    <img src="assets/icons/icons8-python.svg" alt="" loading="lazy" class="icon icon-card" />
-                </div>
-                <div class="first-set animate__animated animate__pulse">
-                    <img src="assets/icons/Power BI Icons.svg" alt="C#" loading="lazy" class="icon icon-card" />
-                    <img src="assets/icons/icons8-microsoft-sql-server.svg" alt="" loading="lazy"
-                        class="icon icon-card" />
-                    <img src="assets/icons/icons8-github.svg" alt="" loading="lazy" class="icon icon-card" />
-                </div>
             </div>
         </div>
     </div>
-    </div>
+
     <!-- Tech Stack End -->
 
     <!-- Education Start -->
@@ -226,37 +218,42 @@
         <div class="container">
             <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                 <p>My Portfolio</p>
-                <h2>My Excellent Portfolio</h2>
+                <h2>All Things Data</h2>
             </div>
             <div class="row">
                 <div class="col-12">
                     <ul id="portfolio-filter">
                         <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-1">Web Design</li>
-                        <li data-filter=".filter-2">UX/UI Design</li>
+                        <li data-filter=".filter-1">Microsoft Excel</li>
+                        <li data-filter=".filter-2">Microsoft Power BI</li>
+                        <li data-filter=".filter-3">Python</li>
+
                     </ul>
                 </div>
             </div>
             <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 pb-3 wow fadeInUp"
+                    data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
-                                    <img src="img/landing-page-1.jpg" alt="Naashta" style="width:300px;height:200px">
+                                    <img src="img/Neuro Memory Clinic.jpg" alt="Neuro Memory Clinic Report"
+                                        style="width:280px;height:195px">
                                 </div>
                                 <div class="flip-box-back">
-                                    <h3 style="color: white;">Naashta</h3>
-                                    <p>A landing page advertising different samosas; from flavours, sizes, and prices.
+                                    <h5 style="color: white;">Neuro Memory Clinic Report</h5>
+                                    <p style="font-size: 16px">A report analyzing residents' health, medication in-take,
+                                        therapy visits, and conditions for improved care and insights.
                                     </p>
-                                    <u><a href="https://youtu.be/u1YKF23O-CQ" target="_blank" style="color: white;">See
-                                            Video</a> </u>
+                                    <u><a href="PowerBI-Neuro-Memory-Clinic.html" target="_blank"
+                                            style="color: white;">Read More</a> </u>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.2s">
+                <!-- <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item pb-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <div class="flip-box">
                             <div class="flip-box-inner">
@@ -265,7 +262,7 @@
                                         style="width:300px;height:200px">
                                 </div>
                                 <div class="flip-box-back">
-                                    <h3 style="color: white;">Maidaan Spices</h3>
+                                    <h4 style="color: white;">Maidaan Spices</h4>
                                     <p>A search engine program containing a list of different spices used to season
                                         food. </p>
                                     <u><a href="https://youtu.be/GAbQT_t8BQI" target="_blank" style="color: white;">See
@@ -275,7 +272,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 filter-2 wow fadeInUp"
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 filter-3 wow fadeInUp"
                     data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <div class="flip-box">
@@ -295,7 +292,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <div class="flip-box">
                             <div class="flip-box-inner">
@@ -313,7 +310,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <div class="flip-box">
                             <div class="flip-box-inner">
@@ -329,7 +326,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -375,6 +372,22 @@
     <div id="loader" class="show">
         <div class="loader"></div>
     </div>
+
+    <!-- Add the JavaScript -->
+    <!-- <script>
+    window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        const links = document.querySelectorAll(".nav-link");
+
+        if (window.scrollY > 0) {
+            navbar.classList.add("nav-scrolled");
+            links.forEach(link => link.classList.add("scrolled-hover"));
+        } else {
+            navbar.classList.remove("nav-scrolled");
+            links.forEach(link => link.classList.remove("scrolled-hover"));
+        }
+    });
+</script> -->
 
 
     <!-- JavaScript Libraries -->
